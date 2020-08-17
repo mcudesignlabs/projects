@@ -16,7 +16,7 @@ void setup()
   Serial.begin(115200);
   lcd.begin (16,2); //Initialize the LCD
   lcd.setCursor(0,0);
-  lcd.print("MCDL DS1302 RTC");
+  lcd.print("MARIC DS1302 RTC");
   lcd.setCursor(0,1);
   lcd.print("USING GIZDUINO");
   delay(3000);
