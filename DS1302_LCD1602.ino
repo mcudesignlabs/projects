@@ -19,7 +19,7 @@ void setup()
   lcd.print("MARIC DS1302 RTC");
   lcd.setCursor(0,1);
   lcd.print("USING GIZDUINO");
-  delay(3000);
+  delay(1000);
   
   //Set the updated time 	
   myRTC.setDS1302Time(0, 3, 3, 5, 31, 7, 2020);  //Comment this code after setting the right time and date
