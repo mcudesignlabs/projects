@@ -5,7 +5,7 @@
 #include <LiquidCrystal.h>
 
 //Choose pinouts of LCD1602
-const int rs = 3, en = 4, d4 = 5, d5 = 6, d6 = 7, d7 = 8;
+const int RS = 3, EN = 4, D4 = 5, D5 = 6, D6 = 7, D7 = 8;
 LiquidCrystal lcd(RS, EN, D4, D5, D6, D7);
 
 //Wiring for DS1302 Module SCLK, I/O, CE Or CLK, DAT, Reset               
